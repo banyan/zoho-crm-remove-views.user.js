@@ -22,10 +22,13 @@ const delayTime = 1000;
 
 var removeSpecificMenus = function() {
   setInterval(function() {
+    // Predefined views
     removeElement('cvid_chzn_g_0');
     for (var i = 1; i <= 7; i++) {
       removeElement('cvid_chzn_o_' + i);
     }
+
+    // Recent views
     removeElement('cvid_chzn_g_8');
     for (var i = 9; i <= 10; i++) {
       removeElement('cvid_chzn_o_' + i);

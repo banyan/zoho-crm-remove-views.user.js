@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "zoho-crm-remove-views.user.js",
+  "version": "1.0.0",
+  "content_scripts": [ {
+    "exclude_globs": [  ],
+    "include_globs": [ "*" ],
+    "js": ["zoho-crm-remove-views.user.js"],
+    "matches":["https://crm.zoho.com/crm/ShowTab.do?module=Leads*"],
+    "run_at": "document_end"
+  } ]
+}

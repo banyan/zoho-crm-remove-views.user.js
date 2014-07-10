@@ -8,7 +8,7 @@ Remove predefined views and recent views from search box.
 
 ### For Chrome user
 
-1. Download the [crx]()
+1. Download the [crx](https://github.com/banyan/zoho-crm-remove-views.user.js/raw/master/zoho-crm-remove-views.user.js.crx)
 1. Then drag the crx to [chrome://extensions](chrome://extensions) page (Chrome > Preferences > Extensions)
 1. That's it
 
